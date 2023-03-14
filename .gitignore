@@ -1,3 +1,5 @@
 *.DS_Store
 *.awf
 *.log
+/GRACIANO_ROCCHIGIANI/SearchData/*
+/GRACIANO_ROCCHIGIANI/Statistics/*
