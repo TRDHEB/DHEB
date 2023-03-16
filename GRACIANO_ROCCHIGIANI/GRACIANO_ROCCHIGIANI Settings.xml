@@ -3409,6 +3409,31 @@
           <List id="OMFI:ATTR:AttrRefs">
             <ListElem>
               <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Show_Images</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Show_Metasync</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Show_Type</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Disable_Popup</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Image_Col_Width</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">75</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">Pos_MarkerNumCol</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
             </ListElem>
@@ -3542,31 +3567,6 @@
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">Width_MarkerPartCol</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">1108</AvProp>
             </ListElem>
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Show_Images</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
-            </ListElem>
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Show_Metasync</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
-            </ListElem>
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Show_Type</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
-            </ListElem>
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Disable_Popup</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
-            </ListElem>
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_Image_Col_Width</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">75</AvProp>
-            </ListElem>
             <ListElem/>
           </List>
         </AvClass>
@@ -3582,7 +3582,7 @@
       <AvProp id="MeCr" name="DriveName" type="string">Macintosh HD</AvProp>
       <AvProp id="MeCr" name="NumVols" type="int16">0</AvProp>
       <AvProp id="MeCr" name="VideoUsesGroup" type="Boolean">FALSE</AvProp>
-      <AvProp id="MeCr" name="DriveName" type="string">Promise Pegasus</AvProp>
+      <AvProp id="MeCr" name="DriveName" type="string"></AvProp>
       <AvProp id="MeCr" name="NumVols" type="int16">0</AvProp>
       <AvProp id="MeCr" name="AudioUsesGroup" type="Boolean">FALSE</AvProp>
       <AvProp id="MeCr" name="AudioUsesVideo" type="Boolean">TRUE</AvProp>
@@ -3595,7 +3595,7 @@
       <AvProp id="MeCr" name="AudioUsesGroup" type="Boolean">FALSE</AvProp>
       <AvProp id="MeCr" name="AudioUsesVideo" type="Boolean">TRUE</AvProp>
       <AvProp id="MeCr" name="vcid_t" type="uint32">27640d</AvProp>
-      <AvProp id="MeCr" name="DriveName" type="string">Promise Pegasus</AvProp>
+      <AvProp id="MeCr" name="DriveName" type="string">16TB_Raid</AvProp>
       <AvProp id="MeCr" name="NumVols" type="int16">0</AvProp>
       <AvProp id="MeCr" name="VideoUsesGroup" type="Boolean">FALSE</AvProp>
       <AvProp id="MeCr" name="DriveName" type="string">Macintosh HD</AvProp>
@@ -3619,10 +3619,10 @@
       <AvProp id="MeCr" name="AudioUsesGroup" type="Boolean">FALSE</AvProp>
       <AvProp id="MeCr" name="AudioUsesVideo" type="Boolean">TRUE</AvProp>
       <AvProp id="MeCr" name="vcid_t" type="uint32">27640d</AvProp>
-      <AvProp id="MeCr" name="DriveName" type="string">Macintosh HD</AvProp>
+      <AvProp id="MeCr" name="DriveName" type="string">16TB_Raid</AvProp>
       <AvProp id="MeCr" name="NumVols" type="int16">0</AvProp>
       <AvProp id="MeCr" name="VideoUsesGroup" type="Boolean">FALSE</AvProp>
-      <AvProp id="MeCr" name="DriveName" type="string">Promise Pegasus</AvProp>
+      <AvProp id="MeCr" name="DriveName" type="string"></AvProp>
       <AvProp id="MeCr" name="NumVols" type="int16">0</AvProp>
       <AvProp id="MeCr" name="AudioUsesGroup" type="Boolean">FALSE</AvProp>
       <AvProp id="MeCr" name="AudioUsesVideo" type="Boolean">FALSE</AvProp>
@@ -4478,34 +4478,6 @@
         </AvClass>
       </AvProp>
     </AvClass>
-    <AvClass id="SFst">
-      <AvProp id="ASET" name="name" type="string">Untitled</AvProp>
-      <AvProp id="ASET" name="kind" type="string">Safe Colors</AvProp>
-      <AvProp id="ASET" name="attributes" type="int16">16</AvProp>
-      <AvProp id="ASET" name="type" type="int16">32</AvProp>
-      <AvProp id="SFst" name="iComposite_limit_type" type="int32">0</AvProp>
-      <AvProp id="SFst" name="iComposite_limit_units" type="int32">2</AvProp>
-      <AvProp id="SFst" name="iComposite_limit_low" type="double">-20.000000</AvProp>
-      <AvProp id="SFst" name="iComposite_limit_high" type="double">110.000000</AvProp>
-      <AvProp id="SFst" name="iLuminance_limit_type" type="int32">0</AvProp>
-      <AvProp id="SFst" name="iLuminance_limit_units" type="int32">2</AvProp>
-      <AvProp id="SFst" name="iLuminance_limit_low" type="double">16.000000</AvProp>
-      <AvProp id="SFst" name="iLuminance_limit_high" type="double">235.000000</AvProp>
-      <AvProp id="SFst" name="iRGB_limit_type" type="int32">0</AvProp>
-      <AvProp id="SFst" name="iRGB_limit_units" type="int32">0</AvProp>
-      <AvProp id="SFst" name="iRGB_limit_low" type="double">0.000000</AvProp>
-      <AvProp id="SFst" name="iRGB_limit_high" type="double">255.000000</AvProp>
-      <AvProp id="SFst" name="iSafe_Video" type="Boolean">TRUE</AvProp>
-      <AvProp id="SFst" name="iSafe_EffectColors" type="Boolean">TRUE</AvProp>
-      <AvProp id="SFst" name="iSafe_ImportedDSK" type="Boolean">TRUE</AvProp>
-      <AvProp id="SFst" name="iSafe_Titles" type="Boolean">TRUE</AvProp>
-      <AvProp id="SFst" name="iNumWarnings" type="int32">100</AvProp>
-      <AvProp id="ASET" name="attrList" type="reference">
-        <AvClass id="ATTR">
-          <AvProp id="ATTR" name="__OMFI:ATTR:NumItems" type="int32">0</AvProp>
-        </AvClass>
-      </AvProp>
-    </AvClass>
     <AvClass id="SRCH">
       <AvProp id="ASET" name="name" type="string">Untitled</AvProp>
       <AvProp id="ASET" name="kind" type="string">Search</AvProp>
@@ -4528,8 +4500,8 @@
             <ListElem>
               <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">4</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_SEARCH_RECENT_LIST</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:BobSize" type="int32">177</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:BobData" type="bytes">177 0 0 74 72 61 69 6e 69 6e 67 1a 57 61 6c 64 6c 61 75 66 1a 4b 41 4c 4c 45 2c 20 41 4c 4c 45 54 1a 6d 61 6c 69 6e 67 61 1a 66 69 6e 61 6e 7a 61 6d 74 1a 73 74 65 75 65 72 1a 6d 61 6e 61 67 65 72 1a 52 42 42 5f 31 39 38 38 31 30 32 39 1a 69 74 76 1a 53 61 75 65 72 6c 61 6e 64 1a 67 65 6c 65 62 74 1a 20 6b c3 b6 6e 69 67 1a 67 65 6c 65 62 74 20 77 69 65 20 65 69 6e 20 6b c3 b6 6e 69 67 1a 53 41 55 45 52 4c 41 4e 44 1a 67 65 69 7a 69 67 1a 70 61 72 74 79 1a 62 75 66 66 65 74 1a 72 65 69 64 1a 74 68 75 73 74 1a 65 69 63 6b 65 0 </AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:BobSize" type="int32">170</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:BobData" type="bytes">170 0 0 61 6e 67 73 74 1a 6d 61 72 6f 74 74 65 1a 6d 6f 70 65 64 1a 6d 6f 66 61 1a 62 c3 b6 6e 74 65 1a 64 61 73 20 77 61 72 20 73 65 69 6e 20 70 72 6f 74 65 73 74 1a 74 68 75 73 74 1a 77 65 6c 6c 65 72 1a 4b 49 4e 4f 20 58 52 31 34 39 1a 72 69 74 7a 65 1a 6b 6e 65 69 70 65 1a 72 65 67 65 6e 1a 6b 61 62 69 6e 65 1a 33 5f 4a 31 34 35 36 36 1a 74 72 61 69 6e 69 6e 67 1a 57 61 6c 64 6c 61 75 66 1a 4b 41 4c 4c 45 2c 20 41 4c 4c 45 54 1a 6d 61 6c 69 6e 67 61 1a 66 69 6e 61 6e 7a 61 6d 74 1a 73 74 65 75 65 72 0 </AvProp>
             </ListElem>
             <ListElem/>
           </List>
@@ -4655,7 +4627,7 @@
       <AvProp id="MONI" name="iHueValue" type="int16">128</AvProp>
       <AvProp id="MONI" name="iSharpnessValue" type="int16">1</AvProp>
       <AvProp id="MONI" name="iUseOGLHardware" type="int16">1</AvProp>
-      <AvProp id="MONI" name="iOGLDeviceName" type="string">AMD Radeon Pro 5700 XT OpenGL Engine</AvProp>
+      <AvProp id="MONI" name="iOGLDeviceName" type="string">AMD Radeon Pro W5700X OpenGL Engine</AvProp>
       <AvProp id="ASET" name="attrList" type="reference">
         <AvClass id="ATTR">
           <AvProp id="ATTR" name="__OMFI:ATTR:NumItems" type="int32">18</AvProp>
