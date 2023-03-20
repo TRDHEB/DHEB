@@ -4500,8 +4500,8 @@
             <ListElem>
               <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">4</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_SEARCH_RECENT_LIST</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:BobSize" type="int32">172</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:BobData" type="bytes">172 0 0 41 31 2d 30 30 30 32 5f 47 65 73 70 72 61 65 63 68 1a 77 69 6c 6b 65 1a 4b 69 6e 6f 20 43 48 58 1a 42 65 72 6c 69 6e 1a 61 6e 67 73 74 1a 6d 61 72 6f 74 74 65 1a 6d 6f 70 65 64 1a 6d 6f 66 61 1a 62 c3 b6 6e 74 65 1a 64 61 73 20 77 61 72 20 73 65 69 6e 20 70 72 6f 74 65 73 74 1a 74 68 75 73 74 1a 77 65 6c 6c 65 72 1a 4b 49 4e 4f 20 58 52 31 34 39 1a 72 69 74 7a 65 1a 6b 6e 65 69 70 65 1a 72 65 67 65 6e 1a 6b 61 62 69 6e 65 1a 33 5f 4a 31 34 35 36 36 1a 74 72 61 69 6e 69 6e 67 1a 57 61 6c 64 6c 61 75 66 0 </AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:BobSize" type="int32">197</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:BobData" type="bytes">197 0 0 56 31 2d 30 30 30 32 5f 53 50 54 56 1a 41 31 2d 30 30 30 32 5f 47 45 53 50 52 41 45 43 48 1a 56 31 2d 30 30 30 32 1a 56 31 2d 30 30 30 31 5f 53 50 54 56 1a 4e 20 31 39 39 30 2d 30 33 2d 30 38 1a 41 31 2d 30 30 30 32 5f 47 65 73 70 72 61 65 63 68 1a 77 69 6c 6b 65 1a 4b 69 6e 6f 20 43 48 58 1a 42 65 72 6c 69 6e 1a 61 6e 67 73 74 1a 6d 61 72 6f 74 74 65 1a 6d 6f 70 65 64 1a 6d 6f 66 61 1a 62 c3 b6 6e 74 65 1a 64 61 73 20 77 61 72 20 73 65 69 6e 20 70 72 6f 74 65 73 74 1a 74 68 75 73 74 1a 77 65 6c 6c 65 72 1a 4b 49 4e 4f 20 58 52 31 34 39 1a 72 69 74 7a 65 1a 6b 6e 65 69 70 65 0 </AvProp>
             </ListElem>
             <ListElem/>
           </List>
