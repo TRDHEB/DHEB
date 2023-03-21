@@ -8,7 +8,7 @@ adir="${today}_A"
 
 LOCALMOUNTPOINT="/Volumes/DHEB_EDIT-2"
 if mount | grep "on $LOCALMOUNTPOINT" > /dev/null; then
-    echo "mounted"
+    echo "DHEB_EDIT-2 mounted"
     # go to the assist directory
 	cd /Volumes/DHEB_EDIT-2/_DHEB
 
